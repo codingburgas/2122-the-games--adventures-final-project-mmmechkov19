@@ -1,0 +1,196 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body
+{
+    
+    background-image: url(../images/Backround.png);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/*I center the elements in the header*/
+header
+{ 
+    position:absolute;
+    top:0;
+    height:80px;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    
+    
+} 
+
+/*the design of the logo*/
+.logo
+{
+    position:relative;
+    box-shadow: 3px 2px 10px #ffffff7b, -3px -2px 10px #ffffff63;
+   left:3%;
+    margin:30px 10px;
+    display:inline-block;
+    opacity:0.8;
+    background-image:url(../images/ZiMaze.png);
+    background-size: cover;
+    background-position:center;
+    height:8vw;
+    width:9vw;
+    background-repeat: no-repeat;
+    border-radius:15%;
+}     
+
+.link2
+{
+    position:absolute;
+    top: 50px;
+    left:43%;
+    
+}
+
+.link3
+{
+    position:absolute;
+    top: 50px;
+    left:56%;
+  
+    
+}
+
+.link1
+{
+    position:absolute;
+    top: 50px;
+    left:25%;
+}
+
+.link1, .link2, .link3
+{
+    
+    transition: 0.5s;
+    cursor:pointer;
+    text-align: center;
+    z-index: 11;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size:28px;
+    border-radius:15%;
+
+} 
+
+div span
+{
+    opacity:0.8;
+     text-shadow: 3px 3px 10px #0000009e;
+  color:#ffffffc8;
+    
+
+}
+
+
+/*style of the box with the name of the team, and its position*/
+h1{
+    display:flex;
+    position: absolute;
+    top:30%;
+    left:25%;
+    justify-content: center;
+    align-items: center;
+    font-weight:200;
+    z-index: 10;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    border: 2px solid #ffffff79;
+    text-transform: uppercase;
+    font-size:5vw;
+    color:#ffffff74;
+    background-color:rgba(255, 255, 255, 0.133);
+    width: 50%;
+    height: 300px;
+    text-shadow: -2px 6px 5px rgba(0, 0, 0, 0.49);
+    box-shadow: 1px 1px 200px rgba(0, 0, 0, 0.659);
+}
+
+
+
+.Game, .Wiki, .About-us
+{
+    position:relative;
+    margin:0px 5vw;
+    padding: 25px 40px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.195);
+    border:2px solid rgba(255, 255, 255, 0.39);
+}
+
+/*design of the ideas*/
+.Game:hover, .Wiki:hover, .About-us:hover
+{
+    
+    background-color: rgba(255, 255, 255, 0.195);
+    border:2px solid rgba(0, 0, 0, 0.39);
+    
+}
+
+.Game:hover span, .Wiki:hover span , .About-us:hover span
+{
+    color:rgb(255, 255, 255);
+}
+
+
+.divfeedback
+{
+    transition:1s;
+    z-index: 10;
+    background-color: #1D3557;
+    position:absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    bottom:80px;
+    left: 8%;
+    width:30%;
+    height:15%;
+    border-radius: 15px;
+    transform: rotateZ(12deg);
+    box-shadow: -5px 8px 80px black;
+
+
+}
+
+/*design of the feedback, it's position too*/
+
+
+/*effect on hover*/
+.divfeedback:hover
+{
+    background-color: rgba(0, 0, 0, 0.816);
+    box-shadow: -5px 8px 80px rgba(0, 0, 0, 0.784);
+}
+
+
+
+.feedback
+
+{
+
+    text-decoration: none;
+    transition:0.5s;
+    z-index: 10;
+    font-weight: 550;
+    font-size: 3vw;
+    opacity:0.6;
+    color:white;
+    transform: rotateZ(-3deg);
+    text-shadow: -5px 8px 7px black;
+    letter-spacing: 6px;
+
+}
